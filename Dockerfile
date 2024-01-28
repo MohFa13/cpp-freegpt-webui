@@ -17,12 +17,6 @@ RUN cd $LIB_DIR && tar -xvf libcurl-impersonate-v0.6.0-alpha.1.$(arch)-linux-gnu
 
 WORKDIR /app
 
-ADD bin /app/bin
-ADD cfg /app/cfg
-ADD client /app/client
-
-RUN ls /app/bin
-RUN ls /app/cfg
 
 WORKDIR /app/bin
 
